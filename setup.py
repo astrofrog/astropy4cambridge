@@ -136,59 +136,6 @@ class BuildNotes(Command):
         self.run_command('clear')
 
 
-class DeployNotes(Command):
-
-    user_options = []
-
-    def initialize_options(self):
-        pass
-
-    def finalize_options(self):
-        pass
-
-    def run(self):
-
-        SERVER = os.environ["PY4SCI_SERVER"]
-        USER = os.environ["PY4SCI_USER"]
-
-        import getpass
-        from ftplib import FTP
-        from astropy.utils.console import ProgressBar
-
-        ftp = FTP(SERVER)
-        ftp.login(user=USER, passwd=getpass.getpass())
-
-        for root, dirnames, filenames in os.walk('docs/_build/html/'):
-
-            print("Uploading files from {0}".format(root))
-
-            ftp.cwd('/public_html/PY4SCI_SS_2015')
-            for directory in root.split('/')[3:]:
-
-                # Try and change to directory, make if not present
-                try:
-                    ftp.cwd(directory)
-                except:
-                    ftp.mkd(directory)
-                    ftp.cwd(directory)
-
-            for filename in ProgressBar(filenames):
-
-                local_file = os.path.join(root, filename)
-
-                try:
-                    remote_size = ftp.size(filename)
-                except:
-                    remote_size = None
-
-                local_size = os.path.getsize(local_file)
-
-                if local_size != remote_size:
-                    ftp.storbinary('STOR ' + filename, open(local_file, 'rb'))
-
-        ftp.quit()
-
-
 class RunNotes(Command):
 
     user_options = []
@@ -220,4 +167,4 @@ class RunNotes(Command):
             os.chdir(start_dir)
 
 
-setup(name='py4sci', cmdclass={'run':RunNotes, 'build': BuildNotes, 'deploy':DeployNotes, 'clear':ClearOutput, 'toc': BuildTOC})
+setup(name='py4sci', cmdclass={'run':RunNotes, 'build': BuildNotes, 'clear':ClearOutput, 'toc': BuildTOC})
