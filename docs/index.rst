@@ -1,5 +1,5 @@
-Vienna Python/Astropy Workshop
-==============================
+IoA Cambridge, Astropy Workshop
+===============================
 
 These notes are for a Astropy workshop held at the Institute of Astronomy of
 the University of
