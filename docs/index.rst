@@ -32,7 +32,7 @@ Useful links
 * `Scipy <http://www.scipy.org>`_
 * `Matplotlib <http://www.matplotlib.org>`_
 * `Astropy <http://www.astropy.org>`_
-* More about the `IPython notebook <http://ipython.org/notebook.html>`_
+* More about the `Jupyter notebook <http://jupyter.org>`_
 * UTF-8 error on MacOS X: see `http <here://docs.astropy.org/en/stable/known_issues.html#locale-errors-in-macos-x-and-linux>`__ for how to fix it.
 
 Nootebooks

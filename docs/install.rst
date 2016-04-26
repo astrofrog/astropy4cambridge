@@ -28,7 +28,9 @@ Set up conda::
 Install common Python dependencies
 ----------------------------------
 
-In the workshop notebooks we have direct use of the following packages:
+In the workshop notebooks we have direct use of the following packages. Some
+of them have optional dependencies we will use indirectly (e.g. scipy,
+scikit-image):
 
  - astropy
  - astroquery
@@ -46,6 +48,6 @@ First create and activate the environment::
 
 Install all of the packages::
 
-    conda install astropy astroquery aplpy photutils wcsaxes numpy matplotlib reproject
+    conda install jupyter astropy astroquery aplpy photutils wcsaxes numpy matplotlib reproject scipy scikit-image
 
 
