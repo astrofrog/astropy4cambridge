@@ -2,8 +2,7 @@ IoA Cambridge, Astropy Workshop
 ===============================
 
 These notes are for a Astropy workshop held at the Institute of Astronomy of
-the University of
-Cambridge by `Thomas Robitaille <http://www.mpia.de/~robitaille>`_ on the
+the University of Cambridge by Brigitta Sipőcz and `Thomas Robitaille <http://www.mpia.de/~robitaille>`_ on the
 28th of April 2016.
 
 .. note:: Please bring your laptop to the workshop!
