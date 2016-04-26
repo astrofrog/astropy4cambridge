@@ -46,7 +46,7 @@ First create and activate the environment::
     conda create -n astropy_py3 python=3.5
     source activate astropy_py3
 
-Install all of the packages::
+Install all of the packages (including their dependencies)::
 
     conda install jupyter astropy astroquery aplpy photutils wcsaxes numpy matplotlib reproject scipy scikit-image
 

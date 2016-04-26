@@ -1,7 +1,7 @@
 IoA Cambridge, Astropy Workshop
 ===============================
 
-These notes are for a Astropy workshop held at the Institute of Astronomy of
+These notes are for the Astropy workshop held at the Institute of Astronomy of
 the University of Cambridge by Brigitta Sipőcz and `Thomas Robitaille <http://www.mpia.de/~robitaille>`_ on the
 28th of April 2016.
 
@@ -9,7 +9,7 @@ the University of Cambridge by Brigitta Sipőcz and `Thomas Robitaille <http://w
 
 The purpose of this workshop is to give you an overview of functionality in
 Astropy, and get you started with some simple problems. There is a lot of
-functionality that we cannot cover in this workshop, so I encourage you to
+functionality that we cannot cover in this workshop, so we encourage you to
 browse the Astropy `Documentation <http://docs.astropy.org>`_  to get a
 sense of what it can be used for!
 
@@ -23,17 +23,8 @@ If you don't already have a Scientific Python Installation, install the
 3.5 version (you will still be able to set up Python 2 environments if
 needed).
 Alternatively you can find installation info here:
+
 :doc:`install`.
-
-Useful links
-------------
-
-* `Numpy <http://www.numpy.org>`_
-* `Scipy <http://www.scipy.org>`_
-* `Matplotlib <http://www.matplotlib.org>`_
-* `Astropy <http://www.astropy.org>`_
-* More about the `Jupyter notebook <http://jupyter.org>`_
-* UTF-8 error on MacOS X: see `http <here://docs.astropy.org/en/stable/known_issues.html#locale-errors-in-macos-x-and-linux>`__ for how to fix it.
 
 Nootebooks
 ----------
@@ -76,3 +67,15 @@ Feedback
 
 * `Proposing future features for Astropy <http://astropy.userecho.com>`_
 * `Private feedback on astropy <mailto:astropy-feedback@googlegroups.com>`_
+
+
+Useful links
+------------
+
+* `Numpy <http://www.numpy.org>`_
+* `Scipy <http://www.scipy.org>`_
+* `Matplotlib <http://www.matplotlib.org>`_
+* `Astropy <http://www.astropy.org>`_
+* More about the `Jupyter notebook <http://jupyter.org>`_
+* UTF-8 error on MacOS X: see `http <here://docs.astropy.org/en/stable/known_issues.html#locale-errors-in-macos-x-and-linux>`__ for how to fix it.
+
