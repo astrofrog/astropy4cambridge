@@ -22,6 +22,7 @@ If you don't already have a Scientific Python Installation, install the
 (works for MacOS X, Linux, and Windows). We recommend downloading the Python
 3.5 version (you will still be able to set up Python 2 environments if
 needed).
+Alternatively you can find installation info here: :doc:`install`.
 
 Useful links
 ------------
@@ -72,5 +73,5 @@ Astropy help
 Feedback
 ^^^^^^^^
 
-* `Proposing future features for Astropy <astropy.userecho.com>`_
+* `Proposing future features for Astropy <http://astropy.userecho.com>`_
 * `Private feedback on astropy <mailto:astropy-feedback@googlegroups.com>`_
