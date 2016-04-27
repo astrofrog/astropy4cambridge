@@ -38,7 +38,7 @@ Download the notebooks from `here <_static/astropy4cambridge.tgz>`__ before star
 * `Modeling <_static/Astropy%20-%20Modeling.html>`_ [`Problem solutions <_static/Astropy%20-%20Modeling%20-%20Solutions.html>`_]
 * `WCS Transformations <_static/Astropy%20-%20WCS%20Transformations.html>`_ [`Problem solutions <_static/Astropy%20-%20WCS%20Transformations%20-%20Solutions.html>`_]
 * `Astropy Affiliated Packages: APLpy and WCSAxes <_static/Affiliated%20Package%20-%20APLpy%20and%20WCSAxes.html>`_
-* `Astropy Affiliated Packages: Aperture photometry <_static/Affiliated%20Package%20-%20Photutils.html>`_
+* `Astropy Affiliated Packages: Aperture photometry <_static/Affiliated%20Package%20-%20photutils.html>`_
 * `Astropy Affiliated Packages: Astroquery <_static/Affiliated%20Package%20-%20Astroquery.html>`_
 * `Astropy Affiliated Packages: Image reprojection <_static/Affiliated%20Package%20-%20Image%20reprojection.html>`_
 
@@ -77,5 +77,5 @@ Useful links
 * `Matplotlib <http://www.matplotlib.org>`_
 * `Astropy <http://www.astropy.org>`_
 * More about the `Jupyter notebook <http://jupyter.org>`_
-* UTF-8 error on MacOS X: see `http <here://docs.astropy.org/en/stable/known_issues.html#locale-errors-in-macos-x-and-linux>`__ for how to fix it.
+* UTF-8 error on MacOS X: see `here <http://docs.astropy.org/en/stable/known_issues.html#locale-errors-in-macos-x-and-linux>`__ for how to fix it.
 
