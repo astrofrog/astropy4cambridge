@@ -14,7 +14,7 @@ Download miniconda for **Linux**::
 
 Download miniconda for **MacOSX**::
 
-    wget http://repo.continuum.io/miniconda/Miniconda-3.7.3-MacOSX-x86_64.sh -O miniconda.sh
+    wget http://repo.continuum.io/miniconda/Miniconda-latest-MacOSX-x86_64.sh -O miniconda.sh
 
 
 Set up conda::
@@ -41,10 +41,6 @@ scikit-image):
  - reproject
  - wcsaxes
 
-First create and activate the environment::
-
-    conda create -n astropy_py3 python=3.5
-    source activate astropy_py3
 
 Install all of the packages (including their dependencies)::
 
