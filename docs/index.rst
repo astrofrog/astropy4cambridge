@@ -26,8 +26,8 @@ Alternatively you can find installation info here:
 
 :doc:`install`.
 
-Nootebooks
-----------
+Notebooks
+---------
 
 Download the notebooks from `here <_static/astropy4cambridge.tgz>`__ before starting (Windows users: use `this <_static/astropy4cambridge.zip>`__ instead).
 
